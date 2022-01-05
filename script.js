@@ -1,9 +1,6 @@
 function typeText() {
-    let list = ['Full Stack Web Developer', 'M.E.R.N. Stack Developer', 'PHP Developer', 'Database manager','Python Developer']
+    let list = ['Full Stack Web Developer', 'M.E.R.N. Stack Developer', 'PHP Developer', 'Database Manager','Python Developer','Machine Learning Engineer','Freelancer']
     let count=0;
-    // list.forEach(element => {
-    //     count=count+element.length
-    // });
     let place=document.getElementById('typetext');
     let i=0;
     let right=1;
@@ -21,7 +18,7 @@ function typeText() {
                 i--;
                 setTimeout(writeName, text.length*3);
             }
-            else if(textindex<4){
+            else if(textindex<6){
                 right=1;
                 textindex++;
                 text=list[textindex];
@@ -38,7 +35,7 @@ function typeText() {
 
 typeText()
 
-setInterval(typeText, 15500)
+setInterval(typeText, 19000)
 
 
 
