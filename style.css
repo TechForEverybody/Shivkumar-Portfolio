@@ -406,6 +406,20 @@ meter::-moz-meter-bar {
     width: 100%;
 }
 
+.internship{
+    margin-left: 25px;
+}
+
+.internship h3{
+    display: flex;
+    margin: 5px;
+}
+.internship h3 li{
+    margin: 0 5px;
+}
+
+
+
 @media (max-width:868px) {
     #home {
         min-height: 50vh;
@@ -473,6 +487,9 @@ meter::-moz-meter-bar {
     .contactdetail {
         margin-top: 10px;
         border: none;
+    }
+    .internship{
+        font-size: 0.8em;
     }
 }
 
